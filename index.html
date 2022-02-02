@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <!-- cssBootstrap -->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css" type="text/css"/>
+    <!-- MyCss -->
+    <link rel="stylesheet" href="styles.css" type="text/css"/>
+</head>
+<body>
+<div id="particles-js">
+    <!-- Navbar -->
+    <nav class="navbar navbar-light fixed-top" id="myNavBarS">
+      <div class="container-fluid">
+        <a class="navbar-brand" id="name1" href="#">Hidhz'<span id="name2">ガンツ</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon" id="hamburgerMenu"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Hidhz'ガンツ</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Other
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                  <li><a class="dropdown-item" href="#">Login</a></li>
+                  <li><a class="dropdown-item" href="#">About</a></li>
+                  <li><a class="dropdown-item" href="#">Contact</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+    
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid text-center">
+        <div class="container">
+            <h1 class="display-4 text-bold" id="teksJepang">私はヒッツです</h1>
+            <h1 class="display-4" id="teksName">I am 
+                <span id="teksHidhz">Hidhz'</span>
+                <span id="teksName3">ガンツ</span>
+            </h1>
+            <p class="lead" id="epep"> -Programmer | Gamer- </p>
+            <p class="lead" id="teksJumbotron">
+                Welcome to my website, this website is under development. Don't forget to subscribe to my youtube channel. Thank you...
+            </p>
+            <a href="https://youtube.com/channel/UCMJ9Qg58jw3lb-JqBl5v3pQ">
+                <button class="btn btn-outline-danger" type="button">Susbcribe</button>
+            </a>
+        </div>
+    </div> 
+</div> 
+    <!-- Akhir Jumbotron -->
+    
+    <!-- Footer -->
+    <footer>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="1" d="M0,96L34.3,122.7C68.6,149,137,203,206,202.7C274.3,203,343,149,411,128C480,107,549,117,617,144C685.7,171,754,213,823,213.3C891.4,213,960,171,1029,138.7C1097.1,107,1166,85,1234,80C1302.9,75,1371,85,1406,90.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+          <div id="bgFooter">
+            <form method="POST">
+                <label for="email">
+                <h5 id="teksS">Subscribe Untuk Mendapatkan Notifikasi Update Terbaru</h5>
+                </label> 
+                <div class="d-flex">
+                    <input class="form-control" type="email" name="email" id="email" placeholder="Masukan Email" />
+                    <button id="tombolSubs" class="btn btn-primary" type="button">Subscribe</button>
+                </div>
+            </form> <hr>
+            <div>
+              <p id="copyright">&copy;Copyright 2024 | By @Hidhz</p>
+            </div>
+          </div>
+    </footer>
+    <!-- Akhir Footer -->
+    
+    <!-- bootstrapJs -->
+    <script src="vendor/bootstrap/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+   
+    <!-- particles-js -->
+    <script src="vendor/particles/particles.js" type="text/javascript"></script>
+    <script src="vendor/particles/app.js" type="text/javascript"></script>
+</body>
+</html>
